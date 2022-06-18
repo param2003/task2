@@ -1,0 +1,172 @@
+body {
+    margin-top: 10px;
+    font-family: Arial;
+  }
+  
+  .main-box-1 {
+    display: flex;
+    height: 66px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-block-color: lightgray;
+  }
+  
+  .heading-text {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-left: 15px;
+    flex: 1;
+  }
+  
+  .search-bar-div {
+    flex: 1;
+  }
+  
+  .search-bar {
+    margin-top: 7px;
+    font-size: 16px;
+    height: 40px;
+    width: 250px;
+    margin-left: -50px;
+    border-radius: 5px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: lightgray;
+    outline: none;
+    padding-left: 15px;
+  }
+  
+  .right-section {
+    margin-right: 24px;
+    margin-top: 16px;
+    font-size: 17px;
+  }
+  
+  .first-line-of-text {
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+  }
+  
+  .lorem-ipsum {
+    color: blue;
+  }
+  
+  .para {
+    font-size: 18px;
+    text-align: center;
+    color: rgb(149, 145, 145);
+    margin-bottom: 3px;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  
+  .button-1 {
+    background-color: rgb(5, 118, 248);
+    color: white;
+    margin-right: 8px;
+    border: none;
+    height: 45px;
+    border-radius: 4px;
+    width: 105px;
+    cursor: pointer;
+  }
+  
+  .button-2 {
+    background-color: white;
+    color: rgb(5, 118, 248);
+    border: none;
+    height: 45px;
+    border-radius: 4px;
+    width: 105px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.35);
+    cursor: pointer;
+  }
+  
+  .formatting-iframes-img {
+    display: flex;
+  }
+  
+  .formatting-table,
+  .iframes,
+  .picture {
+    font-size: 14px;
+    display: inline-block;
+    flex: 1;
+    margin-top: 60px;
+  }
+  
+  .formatting-table {
+    margin-left: 80px;
+    font-size: 16px;
+  }
+  
+  .img {
+    width: 390px;
+    border-radius: 4px;
+  }
+  
+  
+  .paragraphs p {
+    font-size: 18px;
+    margin: 0;
+    margin-bottom: 3px;
+  }
+  
+  .italic {
+    font-style: italic;
+  }
+  
+  
+  table,
+  th,
+  td {
+    font-size: 14px;
+    border: 1px solid rgb(211, 205, 205);
+    border-collapse: collapse;
+  }
+  
+  th,
+  td {
+    height: 35px;
+  }
+  
+  .row-1 th {
+    text-align: left;
+    padding-left: 10px;
+  }
+  
+  .row-2 td {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+  .ifrmaes {
+    display: block;
+  }
+  
+  .iframe {
+    display: block;
+    width: 350px;
+    height: 160px;
+    overflow-x: scroll;
+  }
+  
+  .social-media div {
+    display: flex;
+    justify-content: center;
+    margin-right: 10px;
+    margin-top: 20px;
+    font-size: 17px;
+  }
+  
+  a {
+    color: blue;
+  }
